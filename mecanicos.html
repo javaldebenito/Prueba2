@@ -13,36 +13,36 @@
     
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <img src="img/logo.jpg" alt="logo de la pagina">
+  <header class="header">
+    <div class="logo">
+        <img src="img/logo.jpg" alt="logo de la pagina">
 
+    </div>
+    <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="mecanicos.html">MECANICOS</a></li>
+          <li><a href="servicios.html">SERVICIOS</a></li>
+          <li><a href="atenciones.html">ATENCIONES</a></li>
+        </ul>
+    </nav>
+    <a href="login_acceso.html" class="btn"><button>REGISTRAR</button></a>
+    <a onclick="openNav()" class="menu"><button>MENU</button></a>
+    <div class="overlay" id="mobile-menu">
+        <a onclick="closeNav()" href="" class="close">&times;</a>
+        <div class="overlay-content">
+          <a href="index.html">INICIO</a>
+          <a href="mecanicos.html">MECANICOS</a>
+          <a href="servicios.html">SERVICIOS</a>
+          <a href="atenciones.html">ATENCIONES</a>
+          <a href="contacto.html">Registrar</a>
         </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="index.html">INICIO</a></li>
-                <li><a href="mecanicos.html">MECANICOS</a></li>
-                <li><a href="servicios.html">SERVICIOS</a></li>
-                <li><a href="atenciones.html">ATENCIONES</a></li>
-            </ul>
-        </nav>
-        <a href="" class="btn"><button>CONTACTO</button></a>
-        <a onclick="openNav()" class="menu"><button>MENU</button></a>
-        <div class="overlay" id="mobile-menu">
-            <a onclick="closeNav()" href="" class="close">&times;</a>
-            <div class="overlay-content">
-                <a href="index.html">INICIO</a>
-                <a href="mecanicos.html">MECANICOS</a>
-                <a href="servicios.html">SERVICIOS</a>
-                <a href="atenciones.html">ATENCIONES</a>
-                <a href="contacto.html">CONTACTO</a>
-            </div>
-        </div>
+    </div>
 
 
-       
+   
 
-    </header>
+</header>
 
     <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
@@ -52,7 +52,9 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/carrusel1.jpg" class="d-block w-100" alt="...">
+            <a href="servicios.html">
+              <img src="img/carrusel1.jpg" class="d-block w-100" alt="...">
+              </a>
           </div>
           <div class="carousel-item">
             <img src="img/carrusel2.jpg" class="d-block w-100" alt="...">
@@ -71,10 +73,44 @@
         </button>
       </div>
 
+      <section class="mecanicos">
+        <div class="tittle"> 
+          <h1>NUESTROS MECANICOS</h1>
 
-      <h3>NUESTROS MECANICOS</h3>
+        </div>
+        <div class="row">  
+            <div class="col">
+              <img class="imagenesMecanicos" src="img/jose.jpg" alt="imagen de mecanico jose">
+              <h4>JOSE FEUNZALIDA</h4>
+              <P>Jose es nuestro especialista en revisiones tecnicas, para contactarlo puedes escribir a su email: Jose.feunza@gmail.com</P>
+            </div>
+            <div class="col">
+              <img class="imagenesMecanicos" src="img/Carlos.jpg" alt="imagen de mecanico carlos">
+              <h4>CARLOS HERRORES</h4>
+              <P>Carlos es nuestro especialista en neumaticos, para contactarlo puedes escribir a su email: Carlos.hres@gmail.com</P>
+            </div>
 
+          </div>
+        </div>
+      </section>
+       
+      <section class="mecanicos">
+        
+        <div class="row">  
+            <div class="col">
+              <img class="imagenesMecanicos" src="img/miguel.jpg" alt="imagen de mecanico miguel">
+              <h4>MIGUEL DEL CARMEN</h4>
+              <P>Miguel es nuestro especialista en escaners, para contactarlo puedes escribir a su email: Miguel.dlc@gmail.com</P>
+            </div>
+            <div class="col">
+              <img class="imagenesMecanicos" src="img/diego.jpg" alt="imagen de mecanico diego">
+              <h4>DIEGO ALVARADO</h4>
+              <P>Diego es nuestro especialista en Motor, para contactarlo puedes escribir a su email: Diego.alv@gmail.com</P>
+            </div>
 
+          </div>
+        </div>
+      </section>
 
 
 

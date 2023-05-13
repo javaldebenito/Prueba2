@@ -187,3 +187,58 @@ h3{
     text-align: justify;
 
 }
+
+/*seccion mecanicos*/
+
+.imagenesMecanicos{
+    height: 250px;
+    width: auto;
+
+}
+
+.tittle{
+    text-align: center;
+    font-size: 4vmin;
+}
+
+section{
+    width: 80%;
+    margin: 10%;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+/*servicipos*/
+
+.imagenesServicios{
+    height: 250px;
+    width: auto;
+
+}
+
+
+/*atenciones*/
+
+.atenciones{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+}

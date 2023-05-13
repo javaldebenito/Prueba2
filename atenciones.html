@@ -13,36 +13,36 @@
     
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <img src="img/logo.jpg" alt="logo de la pagina">
+  <header class="header">
+    <div class="logo">
+        <img src="img/logo.jpg" alt="logo de la pagina">
 
+    </div>
+    <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="mecanicos.html">MECANICOS</a></li>
+          <li><a href="servicios.html">SERVICIOS</a></li>
+          <li><a href="atenciones.html">ATENCIONES</a></li>
+        </ul>
+    </nav>
+    <a href="login_acceso.html" class="btn"><button>REGISTRAR</button></a>
+    <a onclick="openNav()" class="menu"><button>MENU</button></a>
+    <div class="overlay" id="mobile-menu">
+        <a onclick="closeNav()" href="" class="close">&times;</a>
+        <div class="overlay-content">
+          <a href="index.html">INICIO</a>
+          <a href="mecanicos.html">MECANICOS</a>
+          <a href="servicios.html">SERVICIOS</a>
+          <a href="atenciones.html">ATENCIONES</a>
+          <a href="contacto.html">Registrar</a>
         </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="index.html">INICIO</a></li>
-                <li><a href="mecanicos.html">MECANICOS</a></li>
-                <li><a href="servicios.html">SERVICIOS</a></li>
-                <li><a href="atenciones.html">ATENCIONES</a></li>
-            </ul>
-        </nav>
-        <a href="" class="btn"><button>CONTACTO</button></a>
-        <a onclick="openNav()" class="menu"><button>MENU</button></a>
-        <div class="overlay" id="mobile-menu">
-            <a onclick="closeNav()" href="" class="close">&times;</a>
-            <div class="overlay-content">
-                <a href="index.html">INICIO</a>
-                <a href="mecanicos.html">MECANICOS</a>
-                <a href="servicios.html">SERVICIOS</a>
-                <a href="atenciones.html">ATENCIONES</a>
-                <a href="contacto.html">CONTACTO</a>
-            </div>
-        </div>
+    </div>
 
 
-       
+   
 
-    </header>
+</header>
 
     <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
@@ -52,7 +52,9 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/carrusel1.jpg" class="d-block w-100" alt="...">
+            <a href="servicios.html">
+              <img src="img/carrusel1.jpg" class="d-block w-100" alt="...">
+              </a>
           </div>
           <div class="carousel-item">
             <img src="img/carrusel2.jpg" class="d-block w-100" alt="...">
@@ -71,10 +73,64 @@
         </button>
       </div>
 
+      <div class="atenciones">
+        <div class="mb-4">
+        <div class="title">
+          <h1>Elija un servicio</h1>
+        </div>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Servicio seleccionado</option>
+          <option value="1">Cambio motor</option>
+          <option value="2">Cambio de aceite</option>
+          <option value="3">Cambio de neumaticos</option>
+          <option value="3">Cambio de luces</option>
+          <option value="3">Car Wash</option>
+        </select>
+        <div class="title">
+          <h1>Marca del auto</h1>
+        </div>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Marca seleccionada</option>
+            <option value="1">BMW</option>
+            <option value="2">Mercedes</option>
+            <option value="3">Kia</option>
+            <option value="4">Hyundai</option>
+            <option value="5">Chevrolet</option>
+            <option value="5">Dodge</option>
+            <option value="5">Fiat</option>
+            <option value="5">Ford</option>
+            <option value="5">Honda</option>
+            <option value="5">Mazda</option>
+            <option value="5">Volvo</option>
+          </select>
+          <div class="title">
+            <h1>Año del vehiculo</h1>
+          </div>
+          <input type="text" class="form-control" id="Nombre" placeholder="">
+          <div class="title">
+            <h1>Horario de Atenciones</h1>
+           </div>
+           <select class="form-select" aria-label="Default select example">
+            <option selected>Hora seleccionada</option>
+            <option value="1">10:00</option>
+            <option value="2">11:00</option>
+            <option value="3">12:00</option>
+            <option value="3">13:00</option>
+            <option value="3">14:00</option>
+            <option value="3">15:00</option>
+            <option value="3">16:00</option>
+            <option value="3">17:00</option>
+            <option value="3">18:00</option>
+          </select>
+        </div>
+        <a href="atenciones.html">
+          <button class="btn btn-success">Enviar</button>
+        </a>
+        </div>
 
-      <h3>ATENCIONES</h3>
+      
 
-
+    
 
 
 
